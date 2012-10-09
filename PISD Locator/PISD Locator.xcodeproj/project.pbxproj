@@ -13,6 +13,23 @@
 		DDA74B6C1624502300D3D605 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B6A1624502300D3D605 /* InfoPlist.strings */; };
 		DDA74B6E1624502300D3D605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B6D1624502300D3D605 /* main.m */; };
 		DDA74B721624502300D3D605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B711624502300D3D605 /* AppDelegate.m */; };
+		DDA74B80162450F100D3D605 /* MapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B7D162450F100D3D605 /* MapOverlayView.m */; };
+		DDA74B81162450F100D3D605 /* MapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B7F162450F100D3D605 /* MapOverlay.m */; };
+		DDA74B8B1624510400D3D605 /* compass_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B821624510400D3D605 /* compass_60_60.png */; };
+		DDA74B8C1624510400D3D605 /* settings_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B831624510400D3D605 /* settings_60_60.png */; };
+		DDA74B8D1624510400D3D605 /* info_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B841624510400D3D605 /* info_60_60.png */; };
+		DDA74B8E1624510400D3D605 /* compass_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B851624510400D3D605 /* compass_30_30.png */; };
+		DDA74B8F1624510400D3D605 /* settings_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B861624510400D3D605 /* settings_30_30.png */; };
+		DDA74B901624510400D3D605 /* info_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B871624510400D3D605 /* info_30_30.png */; };
+		DDA74B911624510400D3D605 /* App_Icon_57_57.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B881624510400D3D605 /* App_Icon_57_57.png */; };
+		DDA74B921624510400D3D605 /* App_Icon_71_71.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B891624510400D3D605 /* App_Icon_71_71.png */; };
+		DDA74B931624510400D3D605 /* App_Icon_114_114.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B8A1624510400D3D605 /* App_Icon_114_114.png */; };
+		DDA74B971624512100D3D605 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B951624512100D3D605 /* MainStoryboard_iPhone.storyboard */; };
+		DDA74B981624512100D3D605 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B961624512100D3D605 /* MainStoryboard_iPad.storyboard */; };
+		DDA74B9E1624514800D3D605 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B9B1624514800D3D605 /* InfoViewController.m */; };
+		DDA74B9F1624514800D3D605 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B9D1624514800D3D605 /* MapViewController.m */; };
+		DDA74BA21624516D00D3D605 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74BA11624516D00D3D605 /* CoreLocation.framework */; };
+		DDA74BA41624517200D3D605 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74BA31624517200D3D605 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +43,27 @@
 		DDA74B6F1624502300D3D605 /* PISD Locator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PISD Locator-Prefix.pch"; sourceTree = "<group>"; };
 		DDA74B701624502300D3D605 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDA74B711624502300D3D605 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDA74B7C162450F100D3D605 /* MapOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapOverlayView.h; sourceTree = "<group>"; };
+		DDA74B7D162450F100D3D605 /* MapOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapOverlayView.m; sourceTree = "<group>"; };
+		DDA74B7E162450F100D3D605 /* MapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapOverlay.h; sourceTree = "<group>"; };
+		DDA74B7F162450F100D3D605 /* MapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapOverlay.m; sourceTree = "<group>"; };
+		DDA74B821624510400D3D605 /* compass_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass_60_60.png; sourceTree = "<group>"; };
+		DDA74B831624510400D3D605 /* settings_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_60_60.png; sourceTree = "<group>"; };
+		DDA74B841624510400D3D605 /* info_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_60_60.png; sourceTree = "<group>"; };
+		DDA74B851624510400D3D605 /* compass_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass_30_30.png; sourceTree = "<group>"; };
+		DDA74B861624510400D3D605 /* settings_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_30_30.png; sourceTree = "<group>"; };
+		DDA74B871624510400D3D605 /* info_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_30_30.png; sourceTree = "<group>"; };
+		DDA74B881624510400D3D605 /* App_Icon_57_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Icon_57_57.png; sourceTree = "<group>"; };
+		DDA74B891624510400D3D605 /* App_Icon_71_71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Icon_71_71.png; sourceTree = "<group>"; };
+		DDA74B8A1624510400D3D605 /* App_Icon_114_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Icon_114_114.png; sourceTree = "<group>"; };
+		DDA74B951624512100D3D605 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DDA74B961624512100D3D605 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DDA74B9A1624514800D3D605 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		DDA74B9B1624514800D3D605 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		DDA74B9C1624514800D3D605 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		DDA74B9D1624514800D3D605 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		DDA74BA11624516D00D3D605 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DDA74BA31624517200D3D605 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA74BA41624517200D3D605 /* MapKit.framework in Frameworks */,
+				DDA74BA21624516D00D3D605 /* CoreLocation.framework in Frameworks */,
 				DDA74B621624502300D3D605 /* UIKit.framework in Frameworks */,
 				DDA74B641624502300D3D605 /* Foundation.framework in Frameworks */,
 				DDA74B661624502300D3D605 /* CoreGraphics.framework in Frameworks */,
@@ -45,6 +85,8 @@
 		DDA74B521624502300D3D605 = {
 			isa = PBXGroup;
 			children = (
+				DDA74BA31624517200D3D605 /* MapKit.framework */,
+				DDA74BA11624516D00D3D605 /* CoreLocation.framework */,
 				DDA74B671624502300D3D605 /* PISD Locator */,
 				DDA74B601624502300D3D605 /* Frameworks */,
 				DDA74B5E1624502300D3D605 /* Products */,
@@ -74,6 +116,13 @@
 			children = (
 				DDA74B701624502300D3D605 /* AppDelegate.h */,
 				DDA74B711624502300D3D605 /* AppDelegate.m */,
+				DDA74B7C162450F100D3D605 /* MapOverlayView.h */,
+				DDA74B7D162450F100D3D605 /* MapOverlayView.m */,
+				DDA74B7E162450F100D3D605 /* MapOverlay.h */,
+				DDA74B7F162450F100D3D605 /* MapOverlay.m */,
+				DDA74BA01624514D00D3D605 /* View Controllers */,
+				DDA74B991624512800D3D605 /* Storyboards */,
+				DDA74B941624510C00D3D605 /* Media */,
 				DDA74B681624502300D3D605 /* Supporting Files */,
 			);
 			path = "PISD Locator";
@@ -88,6 +137,42 @@
 				DDA74B6F1624502300D3D605 /* PISD Locator-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDA74B941624510C00D3D605 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				DDA74B821624510400D3D605 /* compass_60_60.png */,
+				DDA74B831624510400D3D605 /* settings_60_60.png */,
+				DDA74B841624510400D3D605 /* info_60_60.png */,
+				DDA74B851624510400D3D605 /* compass_30_30.png */,
+				DDA74B861624510400D3D605 /* settings_30_30.png */,
+				DDA74B871624510400D3D605 /* info_30_30.png */,
+				DDA74B881624510400D3D605 /* App_Icon_57_57.png */,
+				DDA74B891624510400D3D605 /* App_Icon_71_71.png */,
+				DDA74B8A1624510400D3D605 /* App_Icon_114_114.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		DDA74B991624512800D3D605 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DDA74B951624512100D3D605 /* MainStoryboard_iPhone.storyboard */,
+				DDA74B961624512100D3D605 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		DDA74BA01624514D00D3D605 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDA74B9A1624514800D3D605 /* InfoViewController.h */,
+				DDA74B9B1624514800D3D605 /* InfoViewController.m */,
+				DDA74B9C1624514800D3D605 /* MapViewController.h */,
+				DDA74B9D1624514800D3D605 /* MapViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +227,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDA74B6C1624502300D3D605 /* InfoPlist.strings in Resources */,
+				DDA74B8B1624510400D3D605 /* compass_60_60.png in Resources */,
+				DDA74B8C1624510400D3D605 /* settings_60_60.png in Resources */,
+				DDA74B8D1624510400D3D605 /* info_60_60.png in Resources */,
+				DDA74B8E1624510400D3D605 /* compass_30_30.png in Resources */,
+				DDA74B8F1624510400D3D605 /* settings_30_30.png in Resources */,
+				DDA74B901624510400D3D605 /* info_30_30.png in Resources */,
+				DDA74B911624510400D3D605 /* App_Icon_57_57.png in Resources */,
+				DDA74B921624510400D3D605 /* App_Icon_71_71.png in Resources */,
+				DDA74B931624510400D3D605 /* App_Icon_114_114.png in Resources */,
+				DDA74B971624512100D3D605 /* MainStoryboard_iPhone.storyboard in Resources */,
+				DDA74B981624512100D3D605 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +250,10 @@
 			files = (
 				DDA74B6E1624502300D3D605 /* main.m in Sources */,
 				DDA74B721624502300D3D605 /* AppDelegate.m in Sources */,
+				DDA74B80162450F100D3D605 /* MapOverlayView.m in Sources */,
+				DDA74B81162450F100D3D605 /* MapOverlay.m in Sources */,
+				DDA74B9E1624514800D3D605 /* InfoViewController.m in Sources */,
+				DDA74B9F1624514800D3D605 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
