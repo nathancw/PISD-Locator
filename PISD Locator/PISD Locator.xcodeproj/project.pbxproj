@@ -120,9 +120,9 @@
 				DDA74B7D162450F100D3D605 /* MapOverlayView.m */,
 				DDA74B7E162450F100D3D605 /* MapOverlay.h */,
 				DDA74B7F162450F100D3D605 /* MapOverlay.m */,
+				DDA74B941624510C00D3D605 /* Media */,
 				DDA74BA01624514D00D3D605 /* View Controllers */,
 				DDA74B991624512800D3D605 /* Storyboards */,
-				DDA74B941624510C00D3D605 /* Media */,
 				DDA74B681624502300D3D605 /* Supporting Files */,
 			);
 			path = "PISD Locator";
@@ -363,6 +363,7 @@
 				DDA74B771624502300D3D605 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
