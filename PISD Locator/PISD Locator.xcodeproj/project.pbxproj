@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDA74B621624502300D3D605 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74B611624502300D3D605 /* UIKit.framework */; };
+		DDA74B641624502300D3D605 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74B631624502300D3D605 /* Foundation.framework */; };
+		DDA74B661624502300D3D605 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74B651624502300D3D605 /* CoreGraphics.framework */; };
+		DDA74B6C1624502300D3D605 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B6A1624502300D3D605 /* InfoPlist.strings */; };
+		DDA74B6E1624502300D3D605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B6D1624502300D3D605 /* main.m */; };
+		DDA74B721624502300D3D605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B711624502300D3D605 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDA74B5D1624502300D3D605 /* PISD Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PISD Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA74B611624502300D3D605 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDA74B631624502300D3D605 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDA74B651624502300D3D605 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDA74B691624502300D3D605 /* PISD Locator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PISD Locator-Info.plist"; sourceTree = "<group>"; };
+		DDA74B6B1624502300D3D605 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDA74B6D1624502300D3D605 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDA74B6F1624502300D3D605 /* PISD Locator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PISD Locator-Prefix.pch"; sourceTree = "<group>"; };
+		DDA74B701624502300D3D605 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDA74B711624502300D3D605 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA74B5A1624502300D3D605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA74B621624502300D3D605 /* UIKit.framework in Frameworks */,
+				DDA74B641624502300D3D605 /* Foundation.framework in Frameworks */,
+				DDA74B661624502300D3D605 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDA74B521624502300D3D605 = {
+			isa = PBXGroup;
+			children = (
+				DDA74B671624502300D3D605 /* PISD Locator */,
+				DDA74B601624502300D3D605 /* Frameworks */,
+				DDA74B5E1624502300D3D605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA74B5E1624502300D3D605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA74B5D1624502300D3D605 /* PISD Locator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA74B601624502300D3D605 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA74B611624502300D3D605 /* UIKit.framework */,
+				DDA74B631624502300D3D605 /* Foundation.framework */,
+				DDA74B651624502300D3D605 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA74B671624502300D3D605 /* PISD Locator */ = {
+			isa = PBXGroup;
+			children = (
+				DDA74B701624502300D3D605 /* AppDelegate.h */,
+				DDA74B711624502300D3D605 /* AppDelegate.m */,
+				DDA74B681624502300D3D605 /* Supporting Files */,
+			);
+			path = "PISD Locator";
+			sourceTree = "<group>";
+		};
+		DDA74B681624502300D3D605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDA74B691624502300D3D605 /* PISD Locator-Info.plist */,
+				DDA74B6A1624502300D3D605 /* InfoPlist.strings */,
+				DDA74B6D1624502300D3D605 /* main.m */,
+				DDA74B6F1624502300D3D605 /* PISD Locator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA74B5C1624502300D3D605 /* PISD Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA74B751624502300D3D605 /* Build configuration list for PBXNativeTarget "PISD Locator" */;
+			buildPhases = (
+				DDA74B591624502300D3D605 /* Sources */,
+				DDA74B5A1624502300D3D605 /* Frameworks */,
+				DDA74B5B1624502300D3D605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PISD Locator";
+			productName = "PISD Locator";
+			productReference = DDA74B5D1624502300D3D605 /* PISD Locator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA74B541624502300D3D605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Hechtic Development";
+			};
+			buildConfigurationList = DDA74B571624502300D3D605 /* Build configuration list for PBXProject "PISD Locator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDA74B521624502300D3D605;
+			productRefGroup = DDA74B5E1624502300D3D605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA74B5C1624502300D3D605 /* PISD Locator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA74B5B1624502300D3D605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA74B6C1624502300D3D605 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA74B591624502300D3D605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA74B6E1624502300D3D605 /* main.m in Sources */,
+				DDA74B721624502300D3D605 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDA74B6A1624502300D3D605 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA74B6B1624502300D3D605 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDA74B731624502300D3D605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDA74B741624502300D3D605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA74B761624502300D3D605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PISD Locator/PISD Locator-Prefix.pch";
+				INFOPLIST_FILE = "PISD Locator/PISD Locator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDA74B771624502300D3D605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PISD Locator/PISD Locator-Prefix.pch";
+				INFOPLIST_FILE = "PISD Locator/PISD Locator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA74B571624502300D3D605 /* Build configuration list for PBXProject "PISD Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA74B731624502300D3D605 /* Debug */,
+				DDA74B741624502300D3D605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA74B751624502300D3D605 /* Build configuration list for PBXNativeTarget "PISD Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA74B761624502300D3D605 /* Debug */,
+				DDA74B771624502300D3D605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA74B541624502300D3D605 /* Project object */;
+}
