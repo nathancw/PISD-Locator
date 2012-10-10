@@ -30,6 +30,18 @@
 		DDA74B9F1624514800D3D605 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B9D1624514800D3D605 /* MapViewController.m */; };
 		DDA74BA21624516D00D3D605 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74BA11624516D00D3D605 /* CoreLocation.framework */; };
 		DDA74BA41624517200D3D605 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74BA31624517200D3D605 /* MapKit.framework */; };
+		DDD8C166162518A300C333C9 /* Admin Room #s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C15A162518A300C333C9 /* Admin Room #s.jpg */; };
+		DDD8C167162518A300C333C9 /* Baker Room #s Only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C15B162518A300C333C9 /* Baker Room #s Only.jpg */; };
+		DDD8C168162518A300C333C9 /* Cockrell Room # Only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C15C162518A300C333C9 /* Cockrell Room # Only.jpg */; };
+		DDD8C169162518A300C333C9 /* PHS 2nd floor Rm #s only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C15D162518A300C333C9 /* PHS 2nd floor Rm #s only.jpg */; };
+		DDD8C16A162518A300C333C9 /* PHS Field House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C15E162518A300C333C9 /* PHS Field House.jpg */; };
+		DDD8C16B162518A300C333C9 /* Reynolds Room #s Only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C15F162518A300C333C9 /* Reynolds Room #s Only.jpg */; };
+		DDD8C16C162518A300C333C9 /* Rogers Room #s Only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C160162518A300C333C9 /* Rogers Room #s Only.jpg */; };
+		DDD8C16D162518A300C333C9 /* Rucker Room #s Only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C161162518A300C333C9 /* Rucker Room #s Only.jpg */; };
+		DDD8C16E162518A300C333C9 /* Support Services.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C162162518A300C333C9 /* Support Services.jpg */; };
+		DDD8C16F162518A300C333C9 /* Folsom Room #s Only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C163162518A300C333C9 /* Folsom Room #s Only.jpg */; };
+		DDD8C170162518A300C333C9 /* PHS 1st floor Rm #s only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C164162518A300C333C9 /* PHS 1st floor Rm #s only.jpg */; };
+		DDD8C171162518A300C333C9 /* ProsperSkyview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C165162518A300C333C9 /* ProsperSkyview.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +76,18 @@
 		DDA74B9D1624514800D3D605 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		DDA74BA11624516D00D3D605 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		DDA74BA31624517200D3D605 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DDD8C15A162518A300C333C9 /* Admin Room #s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Admin Room #s.jpg"; sourceTree = "<group>"; };
+		DDD8C15B162518A300C333C9 /* Baker Room #s Only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Baker Room #s Only.jpg"; sourceTree = "<group>"; };
+		DDD8C15C162518A300C333C9 /* Cockrell Room # Only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cockrell Room # Only.jpg"; sourceTree = "<group>"; };
+		DDD8C15D162518A300C333C9 /* PHS 2nd floor Rm #s only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PHS 2nd floor Rm #s only.jpg"; sourceTree = "<group>"; };
+		DDD8C15E162518A300C333C9 /* PHS Field House.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PHS Field House.jpg"; sourceTree = "<group>"; };
+		DDD8C15F162518A300C333C9 /* Reynolds Room #s Only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Reynolds Room #s Only.jpg"; sourceTree = "<group>"; };
+		DDD8C160162518A300C333C9 /* Rogers Room #s Only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rogers Room #s Only.jpg"; sourceTree = "<group>"; };
+		DDD8C161162518A300C333C9 /* Rucker Room #s Only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rucker Room #s Only.jpg"; sourceTree = "<group>"; };
+		DDD8C162162518A300C333C9 /* Support Services.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Support Services.jpg"; sourceTree = "<group>"; };
+		DDD8C163162518A300C333C9 /* Folsom Room #s Only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Folsom Room #s Only.jpg"; sourceTree = "<group>"; };
+		DDD8C164162518A300C333C9 /* PHS 1st floor Rm #s only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PHS 1st floor Rm #s only.jpg"; sourceTree = "<group>"; };
+		DDD8C165162518A300C333C9 /* ProsperSkyview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ProsperSkyview.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +147,7 @@
 				DDA74B941624510C00D3D605 /* Media */,
 				DDA74BA01624514D00D3D605 /* View Controllers */,
 				DDA74B991624512800D3D605 /* Storyboards */,
+				DDD8C173162518AD00C333C9 /* Maps */,
 				DDA74B681624502300D3D605 /* Supporting Files */,
 			);
 			path = "PISD Locator";
@@ -173,6 +198,25 @@
 				DDA74B9D1624514800D3D605 /* MapViewController.m */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DDD8C173162518AD00C333C9 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8C15A162518A300C333C9 /* Admin Room #s.jpg */,
+				DDD8C15B162518A300C333C9 /* Baker Room #s Only.jpg */,
+				DDD8C15C162518A300C333C9 /* Cockrell Room # Only.jpg */,
+				DDD8C15D162518A300C333C9 /* PHS 2nd floor Rm #s only.jpg */,
+				DDD8C15E162518A300C333C9 /* PHS Field House.jpg */,
+				DDD8C15F162518A300C333C9 /* Reynolds Room #s Only.jpg */,
+				DDD8C160162518A300C333C9 /* Rogers Room #s Only.jpg */,
+				DDD8C161162518A300C333C9 /* Rucker Room #s Only.jpg */,
+				DDD8C162162518A300C333C9 /* Support Services.jpg */,
+				DDD8C163162518A300C333C9 /* Folsom Room #s Only.jpg */,
+				DDD8C164162518A300C333C9 /* PHS 1st floor Rm #s only.jpg */,
+				DDD8C165162518A300C333C9 /* ProsperSkyview.jpg */,
+			);
+			name = Maps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +282,18 @@
 				DDA74B931624510400D3D605 /* App_Icon_114_114.png in Resources */,
 				DDA74B971624512100D3D605 /* MainStoryboard_iPhone.storyboard in Resources */,
 				DDA74B981624512100D3D605 /* MainStoryboard_iPad.storyboard in Resources */,
+				DDD8C166162518A300C333C9 /* Admin Room #s.jpg in Resources */,
+				DDD8C167162518A300C333C9 /* Baker Room #s Only.jpg in Resources */,
+				DDD8C168162518A300C333C9 /* Cockrell Room # Only.jpg in Resources */,
+				DDD8C169162518A300C333C9 /* PHS 2nd floor Rm #s only.jpg in Resources */,
+				DDD8C16A162518A300C333C9 /* PHS Field House.jpg in Resources */,
+				DDD8C16B162518A300C333C9 /* Reynolds Room #s Only.jpg in Resources */,
+				DDD8C16C162518A300C333C9 /* Rogers Room #s Only.jpg in Resources */,
+				DDD8C16D162518A300C333C9 /* Rucker Room #s Only.jpg in Resources */,
+				DDD8C16E162518A300C333C9 /* Support Services.jpg in Resources */,
+				DDD8C16F162518A300C333C9 /* Folsom Room #s Only.jpg in Resources */,
+				DDD8C170162518A300C333C9 /* PHS 1st floor Rm #s only.jpg in Resources */,
+				DDD8C171162518A300C333C9 /* ProsperSkyview.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
