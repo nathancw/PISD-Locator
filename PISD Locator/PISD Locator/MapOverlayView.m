@@ -14,7 +14,7 @@
 - (void)drawMapRect:(MKMapRect)mapRect zoomScale:(MKZoomScale)zoomScale inContext:(CGContextRef)ctx
 {
     
-    UIImage *image = [UIImage imageNamed:@"ProsperSkyview.jpg"];
+    UIImage *image = [UIImage imageNamed:@"PHS_1st_floor_edited.png"];
     CGImageRef imageReference = image.CGImage;
     
     //Loading and setting the image

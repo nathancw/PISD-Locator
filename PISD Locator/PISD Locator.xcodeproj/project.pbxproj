@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD1038E21633A91E002F728E /* LocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038E11633A91E002F728E /* LocationHandler.m */; };
+		DD1038EA163498BC002F728E /* PISDCampuses.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038E9163498BC002F728E /* PISDCampuses.m */; };
+		DD1038ED163499FB002F728E /* Campus.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038EC163499FA002F728E /* Campus.m */; };
+		DD1038EF1634E093002F728E /* PHS_1st_floor_edited.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1038EE1634E093002F728E /* PHS_1st_floor_edited.png */; };
+		DD1038F11634E43B002F728E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1038F01634E43B002F728E /* Default-568h@2x.png */; };
 		DDA74B621624502300D3D605 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74B611624502300D3D605 /* UIKit.framework */; };
 		DDA74B641624502300D3D605 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74B631624502300D3D605 /* Foundation.framework */; };
 		DDA74B661624502300D3D605 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74B651624502300D3D605 /* CoreGraphics.framework */; };
@@ -45,6 +50,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD1038E01633A91D002F728E /* LocationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationHandler.h; sourceTree = "<group>"; };
+		DD1038E11633A91E002F728E /* LocationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationHandler.m; sourceTree = "<group>"; };
+		DD1038E8163498BC002F728E /* PISDCampuses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PISDCampuses.h; sourceTree = "<group>"; };
+		DD1038E9163498BC002F728E /* PISDCampuses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PISDCampuses.m; sourceTree = "<group>"; };
+		DD1038EB163499FA002F728E /* Campus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Campus.h; sourceTree = "<group>"; };
+		DD1038EC163499FA002F728E /* Campus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Campus.m; sourceTree = "<group>"; };
+		DD1038EE1634E093002F728E /* PHS_1st_floor_edited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PHS_1st_floor_edited.png; sourceTree = "<group>"; };
+		DD1038F01634E43B002F728E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DDA74B5D1624502300D3D605 /* PISD Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PISD Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA74B611624502300D3D605 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDA74B631624502300D3D605 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,7 +99,7 @@
 		DDD8C161162518A300C333C9 /* Rucker Room #s Only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rucker Room #s Only.jpg"; sourceTree = "<group>"; };
 		DDD8C162162518A300C333C9 /* Support Services.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Support Services.jpg"; sourceTree = "<group>"; };
 		DDD8C163162518A300C333C9 /* Folsom Room #s Only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Folsom Room #s Only.jpg"; sourceTree = "<group>"; };
-		DDD8C164162518A300C333C9 /* PHS 1st floor Rm #s only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PHS 1st floor Rm #s only.jpg"; sourceTree = "<group>"; };
+		DDD8C164162518A300C333C9 /* PHS 1st floor Rm #s only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "PHS 1st floor Rm #s only.jpg"; path = "/Developer/Hechtic Develelopment/PISD-Locator/PISD Locator/PISD Locator/PHS 1st floor Rm #s only.jpg"; sourceTree = "<absolute>"; };
 		DDD8C165162518A300C333C9 /* ProsperSkyview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ProsperSkyview.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,9 +119,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD1038D61633A357002F728E /* Campuses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Campuses;
+			sourceTree = "<group>";
+		};
 		DDA74B521624502300D3D605 = {
 			isa = PBXGroup;
 			children = (
+				DD1038F01634E43B002F728E /* Default-568h@2x.png */,
 				DDA74BA31624517200D3D605 /* MapKit.framework */,
 				DDA74BA11624516D00D3D605 /* CoreLocation.framework */,
 				DDA74B671624502300D3D605 /* PISD Locator */,
@@ -140,13 +161,20 @@
 			children = (
 				DDA74B701624502300D3D605 /* AppDelegate.h */,
 				DDA74B711624502300D3D605 /* AppDelegate.m */,
+				DD1038E01633A91D002F728E /* LocationHandler.h */,
+				DD1038E11633A91E002F728E /* LocationHandler.m */,
 				DDA74B7C162450F100D3D605 /* MapOverlayView.h */,
 				DDA74B7D162450F100D3D605 /* MapOverlayView.m */,
 				DDA74B7E162450F100D3D605 /* MapOverlay.h */,
 				DDA74B7F162450F100D3D605 /* MapOverlay.m */,
+				DD1038E8163498BC002F728E /* PISDCampuses.h */,
+				DD1038E9163498BC002F728E /* PISDCampuses.m */,
+				DD1038EB163499FA002F728E /* Campus.h */,
+				DD1038EC163499FA002F728E /* Campus.m */,
 				DDA74B941624510C00D3D605 /* Media */,
 				DDA74BA01624514D00D3D605 /* View Controllers */,
 				DDA74B991624512800D3D605 /* Storyboards */,
+				DD1038D61633A357002F728E /* Campuses */,
 				DDD8C173162518AD00C333C9 /* Maps */,
 				DDA74B681624502300D3D605 /* Supporting Files */,
 			);
@@ -214,6 +242,7 @@
 				DDD8C162162518A300C333C9 /* Support Services.jpg */,
 				DDD8C163162518A300C333C9 /* Folsom Room #s Only.jpg */,
 				DDD8C164162518A300C333C9 /* PHS 1st floor Rm #s only.jpg */,
+				DD1038EE1634E093002F728E /* PHS_1st_floor_edited.png */,
 				DDD8C165162518A300C333C9 /* ProsperSkyview.jpg */,
 			);
 			name = Maps;
@@ -294,6 +323,8 @@
 				DDD8C16F162518A300C333C9 /* Folsom Room #s Only.jpg in Resources */,
 				DDD8C170162518A300C333C9 /* PHS 1st floor Rm #s only.jpg in Resources */,
 				DDD8C171162518A300C333C9 /* ProsperSkyview.jpg in Resources */,
+				DD1038EF1634E093002F728E /* PHS_1st_floor_edited.png in Resources */,
+				DD1038F11634E43B002F728E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +341,9 @@
 				DDA74B81162450F100D3D605 /* MapOverlay.m in Sources */,
 				DDA74B9E1624514800D3D605 /* InfoViewController.m in Sources */,
 				DDA74B9F1624514800D3D605 /* MapViewController.m in Sources */,
+				DD1038E21633A91E002F728E /* LocationHandler.m in Sources */,
+				DD1038EA163498BC002F728E /* PISDCampuses.m in Sources */,
+				DD1038ED163499FB002F728E /* Campus.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

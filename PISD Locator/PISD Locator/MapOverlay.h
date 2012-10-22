@@ -10,9 +10,7 @@
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-@interface MapOverlay : NSObject <MKOverlay> {
-    
-}
+@interface MapOverlay : NSObject <MKOverlay>
 
 - (MKMapRect)boundingMapRect;
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;

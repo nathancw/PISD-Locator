@@ -7,51 +7,66 @@
 //
 
 #import "MapViewController.h"
+#import "LocationHandler.h"
+#import "PISDCampuses.h"
 #import "MapOverlay.h"
 #import "MapOverlayView.h"
 
 @interface MapViewController ()
-
+@property (strong, nonatomic) LocationHandler *locationHandler;
 @end
 
 @implementation MapViewController
 @synthesize navigationBar = _navigationBar;
 @synthesize mapView = _mapView;
+@synthesize locationHandler = _locationHandler;
+
+- (LocationHandler *)locationHandler {
+	if (!_locationHandler) {
+		_locationHandler = [[LocationHandler alloc] init];
+	}
+	return _locationHandler;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	
-    //Centering map
-    CLLocationCoordinate2D coord1 = {
-		33.259043, -96.798508
-	};
+	// ADD OVERLAYS TO MAP
+	NSMutableArray *overlays = [NSMutableArray array];
+	for (Campus *campus in [PISDCampuses getArrayOfCampuses])
+		if (campus.image)
+			[overlays addObject:campus.image];
+	[self.mapView addOverlays:overlays];
 	
-	MKCoordinateSpan span = {.latitudeDelta = 0.002, .longitudeDelta = 0.002};
-	MKCoordinateRegion region = {coord1, span};
-	[_mapView setRegion:region animated:YES];
-    
-    //Adding our overlay to the map
-    MapOverlay * mapOverlay = [[MapOverlay alloc] init];
-    [_mapView addOverlay:mapOverlay];
-    
+	// CENTER MAP BASED ON USER'S LOCATION
+	if (self.locationHandler.isOnPISDCampus) { // Go to campus user is on
+		CLLocationCoordinate2D center = self.locationHandler.campus.region.center;
+		MKCoordinateSpan span = {.latitudeDelta = 0.002, .longitudeDelta = 0.002};
+		MKCoordinateRegion region = { center, span };
+		[_mapView setRegion:region animated:YES];
+	}
+	else { // Go to default location (Prosper High School)
+		CLLocationCoordinate2D center = [PISDCampuses prosperHighSchool].region.center;
+		MKCoordinateSpan span = {.latitudeDelta = 0.003, .longitudeDelta = 0.003};
+		MKCoordinateRegion region = { center, span };
+		[_mapView setRegion:region animated:YES];
+	}
 }
 
-- (void)viewDidUnload
-{
+- (void)viewDidUnload {
 	[self setMapView:nil];
 	[self setNavigationBar:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
 
-//delegate fired bby mapview requesting a MKOverlayView for each MapOverlay added
+// delegate fired by mapview requesting a MKOverlayView for each MapOverlay added
 - (MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id <MKOverlay>)overlay {
 	
-    MapOverlay *mapOverlay = (MapOverlay *)overlay;
-    MapOverlayView *mapOverlayView = [[MapOverlayView alloc] initWithOverlay:mapOverlay];
 	
-    return mapOverlayView;
+	
+    return [[MapOverlayView alloc] initWithOverlay:overlay];
 }
 
 @end
