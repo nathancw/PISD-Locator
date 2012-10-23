@@ -7,16 +7,17 @@
 //
 
 #import "MapOverlayView.h"
-#import "MapOverlay.h"
+#import "Campus.h"
 
 @implementation MapOverlayView
 
 - (void)drawMapRect:(MKMapRect)mapRect zoomScale:(MKZoomScale)zoomScale inContext:(CGContextRef)ctx
 {
-    
-    UIImage *image = [UIImage imageNamed:@"PHS_1st_floor_edited.png"];
+	
+	id<Campus> campus = (id<Campus>)self.overlay;
+	UIImage *image = campus.image;
     CGImageRef imageReference = image.CGImage;
-    
+	
     //Loading and setting the image
     MKMapRect theMapRect = [self.overlay boundingMapRect];
     CGRect theRect = [self rectForMapRect:theMapRect];

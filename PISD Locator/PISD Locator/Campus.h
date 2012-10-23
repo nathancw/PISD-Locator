@@ -10,9 +10,11 @@
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
 
-@interface Campus : NSObject
+@protocol Campus <MKOverlay>
 
-@property (strong, nonatomic) NSString *formalName;
+@required
+///////////////////////////////////////////////
+@property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) CLRegion *region;
 @property (strong, nonatomic) UIImage *image;
 

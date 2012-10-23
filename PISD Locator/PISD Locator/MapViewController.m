@@ -8,9 +8,9 @@
 
 #import "MapViewController.h"
 #import "LocationHandler.h"
-#import "PISDCampuses.h"
-#import "MapOverlay.h"
+#import "CampusManager.h"
 #import "MapOverlayView.h"
+#import "ProsperHighSchool.h"
 
 @interface MapViewController ()
 @property (strong, nonatomic) LocationHandler *locationHandler;
@@ -33,12 +33,8 @@
     [super viewDidLoad];
 	
 	// ADD OVERLAYS TO MAP
-	NSMutableArray *overlays = [NSMutableArray array];
-	for (Campus *campus in [PISDCampuses getArrayOfCampuses])
-		if (campus.image)
-			[overlays addObject:campus.image];
-	[self.mapView addOverlays:overlays];
-	
+	[self.mapView addOverlays:[CampusManager arrayOfCampuses]];
+	 
 	// CENTER MAP BASED ON USER'S LOCATION
 	if (self.locationHandler.isOnPISDCampus) { // Go to campus user is on
 		CLLocationCoordinate2D center = self.locationHandler.campus.region.center;
@@ -47,7 +43,7 @@
 		[_mapView setRegion:region animated:YES];
 	}
 	else { // Go to default location (Prosper High School)
-		CLLocationCoordinate2D center = [PISDCampuses prosperHighSchool].region.center;
+		CLLocationCoordinate2D center = [[ProsperHighSchool alloc] init].region.center;
 		MKCoordinateSpan span = {.latitudeDelta = 0.003, .longitudeDelta = 0.003};
 		MKCoordinateRegion region = { center, span };
 		[_mapView setRegion:region animated:YES];
@@ -63,9 +59,6 @@
 
 // delegate fired by mapview requesting a MKOverlayView for each MapOverlay added
 - (MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id <MKOverlay>)overlay {
-	
-	
-	
     return [[MapOverlayView alloc] initWithOverlay:overlay];
 }
 

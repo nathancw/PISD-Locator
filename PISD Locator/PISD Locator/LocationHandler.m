@@ -7,7 +7,7 @@
 //
 
 #import "LocationHandler.h"
-#import "PISDCampuses.h"
+#import "CampusManager.h"
 
 @interface LocationHandler ()
 @property (strong, nonatomic) CLLocationManager *locationManager;
@@ -31,14 +31,14 @@
 - (id)init {
 	_isOnPISDCampus = NO;
 	_campus = nil;
-	[self initializeRegionMonitoring:[PISDCampuses getArrayOfCampuses]];
+	[self initializeRegionMonitoring:[CampusManager arrayOfCampuses]];
 	
 	return self;
 }
 
 - (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
-    for (Campus *campus in [PISDCampuses getArrayOfCampuses])
-		if ([region.identifier isEqualToString:campus.formalName]) {
+    for (id<Campus> campus in [CampusManager arrayOfCampuses])
+		if ([region.identifier isEqualToString:campus.name]) {
 			_campus = campus;
 			_isOnPISDCampus = YES;
 			return;
@@ -55,7 +55,7 @@
 }
 
 - (void)initializeRegionMonitoring:(NSArray *)campuses {
-	for (Campus *campus in campuses)
+	for (id<Campus> campus in campuses)
 		[self.locationManager startMonitoringForRegion:campus.region];
 }
 

@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-@interface MapOverlayView : MKOverlayView {
-    
-}
+@interface MapOverlayView : MKOverlayView
+
+@property (strong, nonatomic) UIImage *imageToBeDrawn;
 
 @end

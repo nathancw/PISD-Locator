@@ -21,7 +21,7 @@
  *	Returns the campus the device is on.
  *	If device is not found to be on a PISD campus, nil is returned.
  */
-@property (readonly, nonatomic) Campus *campus;
+@property (readonly, nonatomic) id<Campus> campus;
 
 
 
