@@ -30,13 +30,29 @@
 
 - (id)init {
 	_isOnPISDCampus = NO;
-	_campus = nil;
+	_campus = [self getInitialCampus];
+	NSLog(@"initial campus is %@", [self.campus name]);
 	[self initializeRegionMonitoring:[CampusManager arrayOfCampuses]];
+	NSLog(@"Location manager initialized. Device latitude: %f Device longitude: %f", self.locationManager.location.coordinate.latitude, self.locationManager.location.coordinate.longitude);
 	
 	return self;
 }
 
+- (id<Campus>)getInitialCampus {
+	id<Campus> cmp = nil;
+	
+	for (id<Campus> campus in [CampusManager arrayOfCampuses])
+		if ([campus.region containsCoordinate:self.locationManager.location.coordinate]) {
+			cmp = campus;
+			_isOnPISDCampus = YES;
+		}
+			
+	
+	return cmp;
+}
+
 - (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
+	NSLog(@"Device did enter region: %@", region.description);
     for (id<Campus> campus in [CampusManager arrayOfCampuses])
 		if ([region.identifier isEqualToString:campus.name]) {
 			_campus = campus;
@@ -51,7 +67,7 @@
 }
 
 - (void)locationManager:(CLLocationManager *)manager didStartMonitoringForRegion:(CLRegion *)region {
-    NSLog(@"Started monitoring %@ region", region.identifier);
+    NSLog(@"Started monitoring \"%@\" region", region.identifier);
 }
 
 - (void)initializeRegionMonitoring:(NSArray *)campuses {

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0583661658ACAB0059CBBF /* StaffInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD0583651658ACAB0059CBBF /* StaffInfo.xib */; };
+		DD0583691658B35D0059CBBF /* CampusInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0583681658B35D0059CBBF /* CampusInfoViewController.m */; };
+		DD05836F1658B4710059CBBF /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05836E1658B4710059CBBF /* Employee.m */; };
+		DD0583711658B65B0059CBBF /* libxls-1.3.1.zip in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0583701658B65A0059CBBF /* libxls-1.3.1.zip */; };
+		DD0583731658B8F30059CBBF /* CampusInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD0583721658B8F30059CBBF /* CampusInfo.txt */; };
 		DD1038E21633A91E002F728E /* LocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038E11633A91E002F728E /* LocationHandler.m */; };
 		DD1038EA163498BC002F728E /* CampusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038E9163498BC002F728E /* CampusManager.m */; };
 		DD1038EF1634E093002F728E /* PHS_1st_floor_edited.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1038EE1634E093002F728E /* PHS_1st_floor_edited.png */; };
@@ -14,6 +19,8 @@
 		DD1038F816357CC1002F728E /* ProsperHighSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038F716357CC1002F728E /* ProsperHighSchool.m */; };
 		DD1038FB16360D4A002F728E /* AdminBuilding.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038FA16360D4A002F728E /* AdminBuilding.m */; };
 		DD1038FE16374209002F728E /* ReynoldsMiddleSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038FD16374209002F728E /* ReynoldsMiddleSchool.m */; };
+		DD10390516376A08002F728E /* Near_Reynolds.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DD10390416376A08002F728E /* Near_Reynolds.gpx */; };
+		DD52C7431653ECBB0037CE95 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = DD52C7421653ECBB0037CE95 /* info.png */; };
 		DDA74B621624502300D3D605 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74B611624502300D3D605 /* UIKit.framework */; };
 		DDA74B641624502300D3D605 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74B631624502300D3D605 /* Foundation.framework */; };
 		DDA74B661624502300D3D605 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74B651624502300D3D605 /* CoreGraphics.framework */; };
@@ -23,16 +30,13 @@
 		DDA74B80162450F100D3D605 /* MapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B7D162450F100D3D605 /* MapOverlayView.m */; };
 		DDA74B8B1624510400D3D605 /* compass_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B821624510400D3D605 /* compass_60_60.png */; };
 		DDA74B8C1624510400D3D605 /* settings_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B831624510400D3D605 /* settings_60_60.png */; };
-		DDA74B8D1624510400D3D605 /* info_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B841624510400D3D605 /* info_60_60.png */; };
 		DDA74B8E1624510400D3D605 /* compass_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B851624510400D3D605 /* compass_30_30.png */; };
 		DDA74B8F1624510400D3D605 /* settings_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B861624510400D3D605 /* settings_30_30.png */; };
-		DDA74B901624510400D3D605 /* info_30_30.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B871624510400D3D605 /* info_30_30.png */; };
 		DDA74B911624510400D3D605 /* App_Icon_57_57.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B881624510400D3D605 /* App_Icon_57_57.png */; };
 		DDA74B921624510400D3D605 /* App_Icon_71_71.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B891624510400D3D605 /* App_Icon_71_71.png */; };
 		DDA74B931624510400D3D605 /* App_Icon_114_114.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B8A1624510400D3D605 /* App_Icon_114_114.png */; };
 		DDA74B971624512100D3D605 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B951624512100D3D605 /* MainStoryboard_iPhone.storyboard */; };
 		DDA74B981624512100D3D605 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B961624512100D3D605 /* MainStoryboard_iPad.storyboard */; };
-		DDA74B9E1624514800D3D605 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B9B1624514800D3D605 /* InfoViewController.m */; };
 		DDA74B9F1624514800D3D605 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B9D1624514800D3D605 /* MapViewController.m */; };
 		DDA74BA21624516D00D3D605 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74BA11624516D00D3D605 /* CoreLocation.framework */; };
 		DDA74BA41624517200D3D605 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74BA31624517200D3D605 /* MapKit.framework */; };
@@ -51,6 +55,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD0583651658ACAB0059CBBF /* StaffInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StaffInfo.xib; sourceTree = "<group>"; };
+		DD0583671658B35D0059CBBF /* CampusInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusInfoViewController.h; sourceTree = "<group>"; };
+		DD0583681658B35D0059CBBF /* CampusInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusInfoViewController.m; sourceTree = "<group>"; };
+		DD05836D1658B4710059CBBF /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		DD05836E1658B4710059CBBF /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		DD0583701658B65A0059CBBF /* libxls-1.3.1.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "libxls-1.3.1.zip"; path = "../../../../Users/owner1/Downloads/libxls-1.3.1.zip"; sourceTree = "<group>"; };
+		DD0583721658B8F30059CBBF /* CampusInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CampusInfo.txt; sourceTree = "<group>"; };
 		DD1038E01633A91D002F728E /* LocationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationHandler.h; sourceTree = "<group>"; };
 		DD1038E11633A91E002F728E /* LocationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationHandler.m; sourceTree = "<group>"; };
 		DD1038E8163498BC002F728E /* CampusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusManager.h; sourceTree = "<group>"; };
@@ -64,6 +75,8 @@
 		DD1038FA16360D4A002F728E /* AdminBuilding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminBuilding.m; sourceTree = "<group>"; };
 		DD1038FC16374209002F728E /* ReynoldsMiddleSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReynoldsMiddleSchool.h; sourceTree = "<group>"; };
 		DD1038FD16374209002F728E /* ReynoldsMiddleSchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReynoldsMiddleSchool.m; sourceTree = "<group>"; };
+		DD10390416376A08002F728E /* Near_Reynolds.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Near_Reynolds.gpx; path = "PISD Locator/Near_Reynolds.gpx"; sourceTree = "<group>"; };
+		DD52C7421653ECBB0037CE95 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
 		DDA74B5D1624502300D3D605 /* PISD Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PISD Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA74B611624502300D3D605 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDA74B631624502300D3D605 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -78,17 +91,13 @@
 		DDA74B7D162450F100D3D605 /* MapOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapOverlayView.m; sourceTree = "<group>"; };
 		DDA74B821624510400D3D605 /* compass_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass_60_60.png; sourceTree = "<group>"; };
 		DDA74B831624510400D3D605 /* settings_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_60_60.png; sourceTree = "<group>"; };
-		DDA74B841624510400D3D605 /* info_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_60_60.png; sourceTree = "<group>"; };
 		DDA74B851624510400D3D605 /* compass_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass_30_30.png; sourceTree = "<group>"; };
 		DDA74B861624510400D3D605 /* settings_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_30_30.png; sourceTree = "<group>"; };
-		DDA74B871624510400D3D605 /* info_30_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_30_30.png; sourceTree = "<group>"; };
 		DDA74B881624510400D3D605 /* App_Icon_57_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Icon_57_57.png; sourceTree = "<group>"; };
 		DDA74B891624510400D3D605 /* App_Icon_71_71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Icon_71_71.png; sourceTree = "<group>"; };
 		DDA74B8A1624510400D3D605 /* App_Icon_114_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Icon_114_114.png; sourceTree = "<group>"; };
 		DDA74B951624512100D3D605 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		DDA74B961624512100D3D605 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		DDA74B9A1624514800D3D605 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
-		DDA74B9B1624514800D3D605 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		DDA74B9C1624514800D3D605 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		DDA74B9D1624514800D3D605 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		DDA74BA11624516D00D3D605 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -112,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0583711658B65B0059CBBF /* libxls-1.3.1.zip in Frameworks */,
 				DDA74BA41624517200D3D605 /* MapKit.framework in Frameworks */,
 				DDA74BA21624516D00D3D605 /* CoreLocation.framework in Frameworks */,
 				DDA74B621624502300D3D605 /* UIKit.framework in Frameworks */,
@@ -150,6 +160,8 @@
 		DDA74B521624502300D3D605 = {
 			isa = PBXGroup;
 			children = (
+				DD0583701658B65A0059CBBF /* libxls-1.3.1.zip */,
+				DD10390416376A08002F728E /* Near_Reynolds.gpx */,
 				DD1038F01634E43B002F728E /* Default-568h@2x.png */,
 				DDA74BA31624517200D3D605 /* MapKit.framework */,
 				DDA74BA11624516D00D3D605 /* CoreLocation.framework */,
@@ -188,10 +200,12 @@
 				DDA74B7D162450F100D3D605 /* MapOverlayView.m */,
 				DD1038F216357C5B002F728E /* Campuses */,
 				DDA74BA01624514D00D3D605 /* View Controllers */,
-				DDA74B991624512800D3D605 /* Storyboards */,
+				DDA74B991624512800D3D605 /* Storyboards & XIBS */,
 				DDA74B941624510C00D3D605 /* Media */,
 				DDD8C173162518AD00C333C9 /* Maps */,
 				DDA74B681624502300D3D605 /* Supporting Files */,
+				DD05836D1658B4710059CBBF /* Employee.h */,
+				DD05836E1658B4710059CBBF /* Employee.m */,
 			);
 			path = "PISD Locator";
 			sourceTree = "<group>";
@@ -199,6 +213,7 @@
 		DDA74B681624502300D3D605 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD0583721658B8F30059CBBF /* CampusInfo.txt */,
 				DDA74B691624502300D3D605 /* PISD Locator-Info.plist */,
 				DDA74B6A1624502300D3D605 /* InfoPlist.strings */,
 				DDA74B6D1624502300D3D605 /* main.m */,
@@ -210,12 +225,11 @@
 		DDA74B941624510C00D3D605 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				DD52C7421653ECBB0037CE95 /* info.png */,
 				DDA74B821624510400D3D605 /* compass_60_60.png */,
 				DDA74B831624510400D3D605 /* settings_60_60.png */,
-				DDA74B841624510400D3D605 /* info_60_60.png */,
 				DDA74B851624510400D3D605 /* compass_30_30.png */,
 				DDA74B861624510400D3D605 /* settings_30_30.png */,
-				DDA74B871624510400D3D605 /* info_30_30.png */,
 				DDA74B881624510400D3D605 /* App_Icon_57_57.png */,
 				DDA74B891624510400D3D605 /* App_Icon_71_71.png */,
 				DDA74B8A1624510400D3D605 /* App_Icon_114_114.png */,
@@ -223,22 +237,23 @@
 			name = Media;
 			sourceTree = "<group>";
 		};
-		DDA74B991624512800D3D605 /* Storyboards */ = {
+		DDA74B991624512800D3D605 /* Storyboards & XIBS */ = {
 			isa = PBXGroup;
 			children = (
 				DDA74B951624512100D3D605 /* MainStoryboard_iPhone.storyboard */,
 				DDA74B961624512100D3D605 /* MainStoryboard_iPad.storyboard */,
+				DD0583651658ACAB0059CBBF /* StaffInfo.xib */,
 			);
-			name = Storyboards;
+			name = "Storyboards & XIBS";
 			sourceTree = "<group>";
 		};
 		DDA74BA01624514D00D3D605 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DDA74B9A1624514800D3D605 /* InfoViewController.h */,
-				DDA74B9B1624514800D3D605 /* InfoViewController.m */,
 				DDA74B9C1624514800D3D605 /* MapViewController.h */,
 				DDA74B9D1624514800D3D605 /* MapViewController.m */,
+				DD0583671658B35D0059CBBF /* CampusInfoViewController.h */,
+				DD0583681658B35D0059CBBF /* CampusInfoViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -317,10 +332,8 @@
 				DDA74B6C1624502300D3D605 /* InfoPlist.strings in Resources */,
 				DDA74B8B1624510400D3D605 /* compass_60_60.png in Resources */,
 				DDA74B8C1624510400D3D605 /* settings_60_60.png in Resources */,
-				DDA74B8D1624510400D3D605 /* info_60_60.png in Resources */,
 				DDA74B8E1624510400D3D605 /* compass_30_30.png in Resources */,
 				DDA74B8F1624510400D3D605 /* settings_30_30.png in Resources */,
-				DDA74B901624510400D3D605 /* info_30_30.png in Resources */,
 				DDA74B911624510400D3D605 /* App_Icon_57_57.png in Resources */,
 				DDA74B921624510400D3D605 /* App_Icon_71_71.png in Resources */,
 				DDA74B931624510400D3D605 /* App_Icon_114_114.png in Resources */,
@@ -340,6 +353,10 @@
 				DDD8C171162518A300C333C9 /* ProsperSkyview.jpg in Resources */,
 				DD1038EF1634E093002F728E /* PHS_1st_floor_edited.png in Resources */,
 				DD1038F11634E43B002F728E /* Default-568h@2x.png in Resources */,
+				DD10390516376A08002F728E /* Near_Reynolds.gpx in Resources */,
+				DD52C7431653ECBB0037CE95 /* info.png in Resources */,
+				DD0583661658ACAB0059CBBF /* StaffInfo.xib in Resources */,
+				DD0583731658B8F30059CBBF /* CampusInfo.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,13 +370,14 @@
 				DDA74B6E1624502300D3D605 /* main.m in Sources */,
 				DDA74B721624502300D3D605 /* AppDelegate.m in Sources */,
 				DDA74B80162450F100D3D605 /* MapOverlayView.m in Sources */,
-				DDA74B9E1624514800D3D605 /* InfoViewController.m in Sources */,
 				DDA74B9F1624514800D3D605 /* MapViewController.m in Sources */,
 				DD1038E21633A91E002F728E /* LocationHandler.m in Sources */,
 				DD1038EA163498BC002F728E /* CampusManager.m in Sources */,
 				DD1038F816357CC1002F728E /* ProsperHighSchool.m in Sources */,
 				DD1038FB16360D4A002F728E /* AdminBuilding.m in Sources */,
 				DD1038FE16374209002F728E /* ReynoldsMiddleSchool.m in Sources */,
+				DD0583691658B35D0059CBBF /* CampusInfoViewController.m in Sources */,
+				DD05836F1658B4710059CBBF /* Employee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

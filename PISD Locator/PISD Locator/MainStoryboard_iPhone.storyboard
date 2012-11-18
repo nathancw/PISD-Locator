@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="ZCB-Qi-AVl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="ZCB-Qi-AVl">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
+        <!--Campus Info View Controller - Campus Info-->
+        <scene sceneID="sNT-yW-OlL">
+            <objects>
+                <viewController id="Iib-Qm-h12" customClass="CampusInfoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wmo-cO-bMx">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="IW5-kA-Uod">
+                                <rect key="frame" x="0.0" y="44" width="320" height="367"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Iib-Qm-h12" id="61a-D2-UMu"/>
+                                    <outlet property="delegate" destination="Iib-Qm-h12" id="SaU-up-AxW"/>
+                                </connections>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" id="y9O-wB-NHq">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="PISD" id="Uj8-Lz-wAC"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Campus Info" image="info.png" id="kH1-Vb-VMq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K1i-1y-O8N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="713" y="-11"/>
+        </scene>
         <!--View Controller - Settings-->
         <scene sceneID="FIG-Zk-tXO">
             <objects>
@@ -44,7 +77,7 @@
                                     <navigationItem title="Prosper ISD" id="AIt-EE-0pC"/>
                                 </items>
                             </navigationBar>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="hybrid" showsUserLocation="YES" id="9Hc-ua-lHg">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" id="9Hc-ua-lHg">
                                 <rect key="frame" x="0.0" y="44" width="320" height="367"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <connections>
@@ -64,16 +97,6 @@
             </objects>
             <point key="canvasLocation" x="713" y="-581"/>
         </scene>
-        <!--Info View Controller - Item-->
-        <scene sceneID="SRA-hc-8cd">
-            <objects>
-                <viewController id="OJO-59-GID" customClass="InfoViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="koa-vm-6JF"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="k12-kz-drJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="713" y="-11"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ANd-Cn-XOk">
             <objects>
@@ -86,7 +109,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="O5A-Ik-Rdb" kind="relationship" relationship="viewControllers" id="QO2-GG-rFC"/>
-                        <segue destination="OJO-59-GID" kind="relationship" relationship="viewControllers" id="jXI-1a-AOU"/>
+                        <segue destination="Iib-Qm-h12" kind="relationship" relationship="viewControllers" id="cqr-bV-iN8"/>
                         <segue destination="a51-TK-1Bl" kind="relationship" relationship="viewControllers" id="2gL-Kz-I2J"/>
                     </connections>
                 </tabBarController>
@@ -97,11 +120,12 @@
     </scenes>
     <resources>
         <image name="compass_30_30.png" width="30" height="30"/>
+        <image name="info.png" width="30" height="30"/>
         <image name="settings_30_30.png" width="30" height="30"/>
     </resources>
     <classes>
-        <class className="InfoViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/InfoViewController.h"/>
+        <class className="CampusInfoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CampusInfoViewController.h"/>
         </class>
         <class className="MapViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
