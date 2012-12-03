@@ -9,23 +9,32 @@
 /* Begin PBXBuildFile section */
 		DD0583661658ACAB0059CBBF /* StaffInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD0583651658ACAB0059CBBF /* StaffInfo.xib */; };
 		DD0583691658B35D0059CBBF /* CampusInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0583681658B35D0059CBBF /* CampusInfoViewController.m */; };
-		DD05836F1658B4710059CBBF /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05836E1658B4710059CBBF /* Employee.m */; };
-		DD0583711658B65B0059CBBF /* libxls-1.3.1.zip in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0583701658B65A0059CBBF /* libxls-1.3.1.zip */; };
-		DD0583731658B8F30059CBBF /* CampusInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD0583721658B8F30059CBBF /* CampusInfo.txt */; };
+		DD0583781658BAF20059CBBF /* Campus.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0583771658BAF20059CBBF /* Campus.m */; };
 		DD1038E21633A91E002F728E /* LocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038E11633A91E002F728E /* LocationHandler.m */; };
-		DD1038EA163498BC002F728E /* CampusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038E9163498BC002F728E /* CampusManager.m */; };
 		DD1038EF1634E093002F728E /* PHS_1st_floor_edited.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1038EE1634E093002F728E /* PHS_1st_floor_edited.png */; };
-		DD1038F11634E43B002F728E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1038F01634E43B002F728E /* Default-568h@2x.png */; };
 		DD1038F816357CC1002F728E /* ProsperHighSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038F716357CC1002F728E /* ProsperHighSchool.m */; };
 		DD1038FB16360D4A002F728E /* AdminBuilding.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038FA16360D4A002F728E /* AdminBuilding.m */; };
 		DD1038FE16374209002F728E /* ReynoldsMiddleSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038FD16374209002F728E /* ReynoldsMiddleSchool.m */; };
 		DD10390516376A08002F728E /* Near_Reynolds.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DD10390416376A08002F728E /* Near_Reynolds.gpx */; };
 		DD52C7431653ECBB0037CE95 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = DD52C7421653ECBB0037CE95 /* info.png */; };
+		DD776BDB1669C1EF00616EDC /* magglass30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD776BD91669C1EF00616EDC /* magglass30x30.png */; };
+		DD776BDC1669C1EF00616EDC /* magglassFULL.png in Resources */ = {isa = PBXBuildFile; fileRef = DD776BDA1669C1EF00616EDC /* magglassFULL.png */; };
+		DD776BE01669C57200616EDC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74BA31624517200D3D605 /* MapKit.framework */; };
+		DD776BEB1669D48600616EDC /* PISDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD776BEA1669D48600616EDC /* PISDTabBarController.m */; };
+		DD776BFA166BD54100616EDC /* BakerElementarySchool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD776BF9166BD54100616EDC /* BakerElementarySchool.m */; };
+		DD776BFE166BD5D300616EDC /* CockrellElementarySchool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD776BFD166BD5D300616EDC /* CockrellElementarySchool.m */; };
+		DD776C02166BD61800616EDC /* RogersMiddleSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD776C01166BD61800616EDC /* RogersMiddleSchool.m */; };
+		DD776C06166BD63E00616EDC /* RuckerElementarySchool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD776C05166BD63E00616EDC /* RuckerElementarySchool.m */; };
+		DD776C0A166BDFCF00616EDC /* SupportServices.m in Sources */ = {isa = PBXBuildFile; fileRef = DD776C09166BDFCF00616EDC /* SupportServices.m */; };
+		DD776C0E166BDFFF00616EDC /* FolsomElementarySchool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD776C0D166BDFFF00616EDC /* FolsomElementarySchool.m */; };
+		DD776C17166BE1F900616EDC /* AdminInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD776C16166BE1F900616EDC /* AdminInfo.txt */; };
+		DD776C19166BE20800616EDC /* PISD Locator-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD776C18166BE20800616EDC /* PISD Locator-Info.plist */; };
+		DD776C1B166BE20F00616EDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD776C1A166BE20F00616EDC /* InfoPlist.strings */; };
+		DD776C1D166BE21700616EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD776C1C166BE21700616EDC /* main.m */; };
+		DD776C20166BE3D500616EDC /* SuportServiceInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD776C1F166BE3D500616EDC /* SuportServiceInfo.txt */; };
 		DDA74B621624502300D3D605 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74B611624502300D3D605 /* UIKit.framework */; };
 		DDA74B641624502300D3D605 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74B631624502300D3D605 /* Foundation.framework */; };
 		DDA74B661624502300D3D605 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74B651624502300D3D605 /* CoreGraphics.framework */; };
-		DDA74B6C1624502300D3D605 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B6A1624502300D3D605 /* InfoPlist.strings */; };
-		DDA74B6E1624502300D3D605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B6D1624502300D3D605 /* main.m */; };
 		DDA74B721624502300D3D605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B711624502300D3D605 /* AppDelegate.m */; };
 		DDA74B80162450F100D3D605 /* MapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B7D162450F100D3D605 /* MapOverlayView.m */; };
 		DDA74B8B1624510400D3D605 /* compass_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B821624510400D3D605 /* compass_60_60.png */; };
@@ -39,7 +48,6 @@
 		DDA74B981624512100D3D605 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA74B961624512100D3D605 /* MainStoryboard_iPad.storyboard */; };
 		DDA74B9F1624514800D3D605 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA74B9D1624514800D3D605 /* MapViewController.m */; };
 		DDA74BA21624516D00D3D605 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74BA11624516D00D3D605 /* CoreLocation.framework */; };
-		DDA74BA41624517200D3D605 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA74BA31624517200D3D605 /* MapKit.framework */; };
 		DDD8C166162518A300C333C9 /* Admin Room #s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C15A162518A300C333C9 /* Admin Room #s.jpg */; };
 		DDD8C167162518A300C333C9 /* Baker Room #s Only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C15B162518A300C333C9 /* Baker Room #s Only.jpg */; };
 		DDD8C168162518A300C333C9 /* Cockrell Room # Only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C15C162518A300C333C9 /* Cockrell Room # Only.jpg */; };
@@ -51,24 +59,17 @@
 		DDD8C16E162518A300C333C9 /* Support Services.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C162162518A300C333C9 /* Support Services.jpg */; };
 		DDD8C16F162518A300C333C9 /* Folsom Room #s Only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C163162518A300C333C9 /* Folsom Room #s Only.jpg */; };
 		DDD8C170162518A300C333C9 /* PHS 1st floor Rm #s only.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C164162518A300C333C9 /* PHS 1st floor Rm #s only.jpg */; };
-		DDD8C171162518A300C333C9 /* ProsperSkyview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C165162518A300C333C9 /* ProsperSkyview.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD0583651658ACAB0059CBBF /* StaffInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StaffInfo.xib; sourceTree = "<group>"; };
 		DD0583671658B35D0059CBBF /* CampusInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusInfoViewController.h; sourceTree = "<group>"; };
 		DD0583681658B35D0059CBBF /* CampusInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusInfoViewController.m; sourceTree = "<group>"; };
-		DD05836D1658B4710059CBBF /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
-		DD05836E1658B4710059CBBF /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
-		DD0583701658B65A0059CBBF /* libxls-1.3.1.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "libxls-1.3.1.zip"; path = "../../../../Users/owner1/Downloads/libxls-1.3.1.zip"; sourceTree = "<group>"; };
-		DD0583721658B8F30059CBBF /* CampusInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CampusInfo.txt; sourceTree = "<group>"; };
+		DD0583761658BAF20059CBBF /* Campus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Campus.h; sourceTree = "<group>"; };
+		DD0583771658BAF20059CBBF /* Campus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Campus.m; sourceTree = "<group>"; };
 		DD1038E01633A91D002F728E /* LocationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationHandler.h; sourceTree = "<group>"; };
 		DD1038E11633A91E002F728E /* LocationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationHandler.m; sourceTree = "<group>"; };
-		DD1038E8163498BC002F728E /* CampusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusManager.h; sourceTree = "<group>"; };
-		DD1038E9163498BC002F728E /* CampusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusManager.m; sourceTree = "<group>"; };
-		DD1038EB163499FA002F728E /* Campus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Campus.h; sourceTree = "<group>"; };
 		DD1038EE1634E093002F728E /* PHS_1st_floor_edited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PHS_1st_floor_edited.png; sourceTree = "<group>"; };
-		DD1038F01634E43B002F728E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DD1038F616357CC1002F728E /* ProsperHighSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProsperHighSchool.h; sourceTree = "<group>"; };
 		DD1038F716357CC1002F728E /* ProsperHighSchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProsperHighSchool.m; sourceTree = "<group>"; };
 		DD1038F916360D4A002F728E /* AdminBuilding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminBuilding.h; sourceTree = "<group>"; };
@@ -77,14 +78,33 @@
 		DD1038FD16374209002F728E /* ReynoldsMiddleSchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReynoldsMiddleSchool.m; sourceTree = "<group>"; };
 		DD10390416376A08002F728E /* Near_Reynolds.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Near_Reynolds.gpx; path = "PISD Locator/Near_Reynolds.gpx"; sourceTree = "<group>"; };
 		DD52C7421653ECBB0037CE95 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		DD776BD91669C1EF00616EDC /* magglass30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magglass30x30.png; sourceTree = "<group>"; };
+		DD776BDA1669C1EF00616EDC /* magglassFULL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magglassFULL.png; sourceTree = "<group>"; };
+		DD776BE91669D48600616EDC /* PISDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PISDTabBarController.h; sourceTree = "<group>"; };
+		DD776BEA1669D48600616EDC /* PISDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PISDTabBarController.m; sourceTree = "<group>"; };
+		DD776BED1669D97000616EDC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD776BF8166BD54100616EDC /* BakerElementarySchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BakerElementarySchool.h; sourceTree = "<group>"; };
+		DD776BF9166BD54100616EDC /* BakerElementarySchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BakerElementarySchool.m; sourceTree = "<group>"; };
+		DD776BFC166BD5D300616EDC /* CockrellElementarySchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CockrellElementarySchool.h; sourceTree = "<group>"; };
+		DD776BFD166BD5D300616EDC /* CockrellElementarySchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CockrellElementarySchool.m; sourceTree = "<group>"; };
+		DD776C00166BD61800616EDC /* RogersMiddleSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RogersMiddleSchool.h; sourceTree = "<group>"; };
+		DD776C01166BD61800616EDC /* RogersMiddleSchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RogersMiddleSchool.m; sourceTree = "<group>"; };
+		DD776C04166BD63E00616EDC /* RuckerElementarySchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuckerElementarySchool.h; sourceTree = "<group>"; };
+		DD776C05166BD63E00616EDC /* RuckerElementarySchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuckerElementarySchool.m; sourceTree = "<group>"; };
+		DD776C08166BDFCF00616EDC /* SupportServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportServices.h; sourceTree = "<group>"; };
+		DD776C09166BDFCF00616EDC /* SupportServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportServices.m; sourceTree = "<group>"; };
+		DD776C0C166BDFFF00616EDC /* FolsomElementarySchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolsomElementarySchool.h; sourceTree = "<group>"; };
+		DD776C0D166BDFFF00616EDC /* FolsomElementarySchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolsomElementarySchool.m; sourceTree = "<group>"; };
+		DD776C16166BE1F900616EDC /* AdminInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdminInfo.txt; sourceTree = "<group>"; };
+		DD776C18166BE20800616EDC /* PISD Locator-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PISD Locator-Info.plist"; sourceTree = "<group>"; };
+		DD776C1A166BE20F00616EDC /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		DD776C1C166BE21700616EDC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD776C1E166BE22100616EDC /* PISD Locator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PISD Locator-Prefix.pch"; sourceTree = "<group>"; };
+		DD776C1F166BE3D500616EDC /* SuportServiceInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuportServiceInfo.txt; sourceTree = "<group>"; };
 		DDA74B5D1624502300D3D605 /* PISD Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PISD Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA74B611624502300D3D605 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDA74B631624502300D3D605 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDA74B651624502300D3D605 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DDA74B691624502300D3D605 /* PISD Locator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PISD Locator-Info.plist"; sourceTree = "<group>"; };
-		DDA74B6B1624502300D3D605 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DDA74B6D1624502300D3D605 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DDA74B6F1624502300D3D605 /* PISD Locator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PISD Locator-Prefix.pch"; sourceTree = "<group>"; };
 		DDA74B701624502300D3D605 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDA74B711624502300D3D605 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DDA74B7C162450F100D3D605 /* MapOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapOverlayView.h; sourceTree = "<group>"; };
@@ -113,7 +133,6 @@
 		DDD8C162162518A300C333C9 /* Support Services.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Support Services.jpg"; sourceTree = "<group>"; };
 		DDD8C163162518A300C333C9 /* Folsom Room #s Only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Folsom Room #s Only.jpg"; sourceTree = "<group>"; };
 		DDD8C164162518A300C333C9 /* PHS 1st floor Rm #s only.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "PHS 1st floor Rm #s only.jpg"; path = "/Developer/Hechtic Develelopment/PISD-Locator/PISD Locator/PISD Locator/PHS 1st floor Rm #s only.jpg"; sourceTree = "<absolute>"; };
-		DDD8C165162518A300C333C9 /* ProsperSkyview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ProsperSkyview.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +140,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD0583711658B65B0059CBBF /* libxls-1.3.1.zip in Frameworks */,
-				DDA74BA41624517200D3D605 /* MapKit.framework in Frameworks */,
 				DDA74BA21624516D00D3D605 /* CoreLocation.framework in Frameworks */,
+				DD776BE01669C57200616EDC /* MapKit.framework in Frameworks */,
 				DDA74B621624502300D3D605 /* UIKit.framework in Frameworks */,
 				DDA74B641624502300D3D605 /* Foundation.framework in Frameworks */,
 				DDA74B661624502300D3D605 /* CoreGraphics.framework in Frameworks */,
@@ -136,33 +154,130 @@
 		DD1038F216357C5B002F728E /* Campuses */ = {
 			isa = PBXGroup;
 			children = (
-				DD1038FF1637465D002F728E /* Helpers */,
-				DD1038F916360D4A002F728E /* AdminBuilding.h */,
-				DD1038FA16360D4A002F728E /* AdminBuilding.m */,
-				DD1038F616357CC1002F728E /* ProsperHighSchool.h */,
-				DD1038F716357CC1002F728E /* ProsperHighSchool.m */,
-				DD1038FC16374209002F728E /* ReynoldsMiddleSchool.h */,
-				DD1038FD16374209002F728E /* ReynoldsMiddleSchool.m */,
+				DD776BF5166BD48C00616EDC /* Admin Building */,
+				DD776BF6166BD4B900616EDC /* Prosper High */,
+				DD776BF7166BD4DF00616EDC /* Reynolds Middle */,
+				DD776BFB166BD54A00616EDC /* Baker Elementary */,
+				DD776BFF166BD5E900616EDC /* Cockrell Elementary */,
+				DD776C03166BD61D00616EDC /* Rogers Middle */,
+				DD776C07166BD65300616EDC /* Rucker Elementary */,
+				DD776C0F166BE00300616EDC /* Folsom Elementary */,
+				DD776C0B166BDFD300616EDC /* Support Services */,
 			);
 			name = Campuses;
 			sourceTree = "<group>";
 		};
-		DD1038FF1637465D002F728E /* Helpers */ = {
+		DD776BF5166BD48C00616EDC /* Admin Building */ = {
 			isa = PBXGroup;
 			children = (
-				DD1038E8163498BC002F728E /* CampusManager.h */,
-				DD1038E9163498BC002F728E /* CampusManager.m */,
-				DD1038EB163499FA002F728E /* Campus.h */,
+				DD776C16166BE1F900616EDC /* AdminInfo.txt */,
+				DDD8C15A162518A300C333C9 /* Admin Room #s.jpg */,
+				DD1038F916360D4A002F728E /* AdminBuilding.h */,
+				DD1038FA16360D4A002F728E /* AdminBuilding.m */,
 			);
-			name = Helpers;
+			name = "Admin Building";
+			sourceTree = "<group>";
+		};
+		DD776BF6166BD4B900616EDC /* Prosper High */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8C15D162518A300C333C9 /* PHS 2nd floor Rm #s only.jpg */,
+				DDD8C15E162518A300C333C9 /* PHS Field House.jpg */,
+				DDD8C164162518A300C333C9 /* PHS 1st floor Rm #s only.jpg */,
+				DD1038EE1634E093002F728E /* PHS_1st_floor_edited.png */,
+				DD1038F616357CC1002F728E /* ProsperHighSchool.h */,
+				DD1038F716357CC1002F728E /* ProsperHighSchool.m */,
+			);
+			name = "Prosper High";
+			sourceTree = "<group>";
+		};
+		DD776BF7166BD4DF00616EDC /* Reynolds Middle */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8C15F162518A300C333C9 /* Reynolds Room #s Only.jpg */,
+				DD1038FC16374209002F728E /* ReynoldsMiddleSchool.h */,
+				DD1038FD16374209002F728E /* ReynoldsMiddleSchool.m */,
+			);
+			name = "Reynolds Middle";
+			sourceTree = "<group>";
+		};
+		DD776BFB166BD54A00616EDC /* Baker Elementary */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8C15B162518A300C333C9 /* Baker Room #s Only.jpg */,
+				DD776BF8166BD54100616EDC /* BakerElementarySchool.h */,
+				DD776BF9166BD54100616EDC /* BakerElementarySchool.m */,
+			);
+			name = "Baker Elementary";
+			sourceTree = "<group>";
+		};
+		DD776BFF166BD5E900616EDC /* Cockrell Elementary */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8C15C162518A300C333C9 /* Cockrell Room # Only.jpg */,
+				DD776BFC166BD5D300616EDC /* CockrellElementarySchool.h */,
+				DD776BFD166BD5D300616EDC /* CockrellElementarySchool.m */,
+			);
+			name = "Cockrell Elementary";
+			sourceTree = "<group>";
+		};
+		DD776C03166BD61D00616EDC /* Rogers Middle */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8C160162518A300C333C9 /* Rogers Room #s Only.jpg */,
+				DD776C00166BD61800616EDC /* RogersMiddleSchool.h */,
+				DD776C01166BD61800616EDC /* RogersMiddleSchool.m */,
+			);
+			name = "Rogers Middle";
+			sourceTree = "<group>";
+		};
+		DD776C07166BD65300616EDC /* Rucker Elementary */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8C161162518A300C333C9 /* Rucker Room #s Only.jpg */,
+				DD776C04166BD63E00616EDC /* RuckerElementarySchool.h */,
+				DD776C05166BD63E00616EDC /* RuckerElementarySchool.m */,
+			);
+			name = "Rucker Elementary";
+			sourceTree = "<group>";
+		};
+		DD776C0B166BDFD300616EDC /* Support Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD776C1F166BE3D500616EDC /* SuportServiceInfo.txt */,
+				DDD8C162162518A300C333C9 /* Support Services.jpg */,
+				DD776C08166BDFCF00616EDC /* SupportServices.h */,
+				DD776C09166BDFCF00616EDC /* SupportServices.m */,
+			);
+			name = "Support Services";
+			sourceTree = "<group>";
+		};
+		DD776C0F166BE00300616EDC /* Folsom Elementary */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8C163162518A300C333C9 /* Folsom Room #s Only.jpg */,
+				DD776C0C166BDFFF00616EDC /* FolsomElementarySchool.h */,
+				DD776C0D166BDFFF00616EDC /* FolsomElementarySchool.m */,
+			);
+			name = "Folsom Elementary";
+			sourceTree = "<group>";
+		};
+		DD776C14166BE1B400616EDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD776C1E166BE22100616EDC /* PISD Locator-Prefix.pch */,
+				DD776C1C166BE21700616EDC /* main.m */,
+				DD776C1A166BE20F00616EDC /* InfoPlist.strings */,
+				DD776C18166BE20800616EDC /* PISD Locator-Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		DDA74B521624502300D3D605 = {
 			isa = PBXGroup;
 			children = (
-				DD0583701658B65A0059CBBF /* libxls-1.3.1.zip */,
+				DD776BED1669D97000616EDC /* QuartzCore.framework */,
 				DD10390416376A08002F728E /* Near_Reynolds.gpx */,
-				DD1038F01634E43B002F728E /* Default-568h@2x.png */,
 				DDA74BA31624517200D3D605 /* MapKit.framework */,
 				DDA74BA11624516D00D3D605 /* CoreLocation.framework */,
 				DDA74B671624502300D3D605 /* PISD Locator */,
@@ -198,33 +313,24 @@
 				DD1038E11633A91E002F728E /* LocationHandler.m */,
 				DDA74B7C162450F100D3D605 /* MapOverlayView.h */,
 				DDA74B7D162450F100D3D605 /* MapOverlayView.m */,
+				DD776BE91669D48600616EDC /* PISDTabBarController.h */,
+				DD776BEA1669D48600616EDC /* PISDTabBarController.m */,
+				DD0583761658BAF20059CBBF /* Campus.h */,
+				DD0583771658BAF20059CBBF /* Campus.m */,
 				DD1038F216357C5B002F728E /* Campuses */,
 				DDA74BA01624514D00D3D605 /* View Controllers */,
 				DDA74B991624512800D3D605 /* Storyboards & XIBS */,
 				DDA74B941624510C00D3D605 /* Media */,
-				DDD8C173162518AD00C333C9 /* Maps */,
-				DDA74B681624502300D3D605 /* Supporting Files */,
-				DD05836D1658B4710059CBBF /* Employee.h */,
-				DD05836E1658B4710059CBBF /* Employee.m */,
+				DD776C14166BE1B400616EDC /* Supporting Files */,
 			);
 			path = "PISD Locator";
-			sourceTree = "<group>";
-		};
-		DDA74B681624502300D3D605 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DD0583721658B8F30059CBBF /* CampusInfo.txt */,
-				DDA74B691624502300D3D605 /* PISD Locator-Info.plist */,
-				DDA74B6A1624502300D3D605 /* InfoPlist.strings */,
-				DDA74B6D1624502300D3D605 /* main.m */,
-				DDA74B6F1624502300D3D605 /* PISD Locator-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		DDA74B941624510C00D3D605 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				DD776BD91669C1EF00616EDC /* magglass30x30.png */,
+				DD776BDA1669C1EF00616EDC /* magglassFULL.png */,
 				DD52C7421653ECBB0037CE95 /* info.png */,
 				DDA74B821624510400D3D605 /* compass_60_60.png */,
 				DDA74B831624510400D3D605 /* settings_60_60.png */,
@@ -258,26 +364,6 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
-		DDD8C173162518AD00C333C9 /* Maps */ = {
-			isa = PBXGroup;
-			children = (
-				DDD8C15A162518A300C333C9 /* Admin Room #s.jpg */,
-				DDD8C15B162518A300C333C9 /* Baker Room #s Only.jpg */,
-				DDD8C15C162518A300C333C9 /* Cockrell Room # Only.jpg */,
-				DDD8C15D162518A300C333C9 /* PHS 2nd floor Rm #s only.jpg */,
-				DDD8C15E162518A300C333C9 /* PHS Field House.jpg */,
-				DDD8C15F162518A300C333C9 /* Reynolds Room #s Only.jpg */,
-				DDD8C160162518A300C333C9 /* Rogers Room #s Only.jpg */,
-				DDD8C161162518A300C333C9 /* Rucker Room #s Only.jpg */,
-				DDD8C162162518A300C333C9 /* Support Services.jpg */,
-				DDD8C163162518A300C333C9 /* Folsom Room #s Only.jpg */,
-				DDD8C164162518A300C333C9 /* PHS 1st floor Rm #s only.jpg */,
-				DD1038EE1634E093002F728E /* PHS_1st_floor_edited.png */,
-				DDD8C165162518A300C333C9 /* ProsperSkyview.jpg */,
-			);
-			name = Maps;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -304,6 +390,7 @@
 		DDA74B541624502300D3D605 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PISD;
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Hechtic Development";
 			};
@@ -329,7 +416,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA74B6C1624502300D3D605 /* InfoPlist.strings in Resources */,
 				DDA74B8B1624510400D3D605 /* compass_60_60.png in Resources */,
 				DDA74B8C1624510400D3D605 /* settings_60_60.png in Resources */,
 				DDA74B8E1624510400D3D605 /* compass_30_30.png in Resources */,
@@ -350,13 +436,16 @@
 				DDD8C16E162518A300C333C9 /* Support Services.jpg in Resources */,
 				DDD8C16F162518A300C333C9 /* Folsom Room #s Only.jpg in Resources */,
 				DDD8C170162518A300C333C9 /* PHS 1st floor Rm #s only.jpg in Resources */,
-				DDD8C171162518A300C333C9 /* ProsperSkyview.jpg in Resources */,
 				DD1038EF1634E093002F728E /* PHS_1st_floor_edited.png in Resources */,
-				DD1038F11634E43B002F728E /* Default-568h@2x.png in Resources */,
 				DD10390516376A08002F728E /* Near_Reynolds.gpx in Resources */,
 				DD52C7431653ECBB0037CE95 /* info.png in Resources */,
 				DD0583661658ACAB0059CBBF /* StaffInfo.xib in Resources */,
-				DD0583731658B8F30059CBBF /* CampusInfo.txt in Resources */,
+				DD776BDB1669C1EF00616EDC /* magglass30x30.png in Resources */,
+				DD776BDC1669C1EF00616EDC /* magglassFULL.png in Resources */,
+				DD776C17166BE1F900616EDC /* AdminInfo.txt in Resources */,
+				DD776C19166BE20800616EDC /* PISD Locator-Info.plist in Resources */,
+				DD776C1B166BE20F00616EDC /* InfoPlist.strings in Resources */,
+				DD776C20166BE3D500616EDC /* SuportServiceInfo.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,32 +456,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA74B6E1624502300D3D605 /* main.m in Sources */,
 				DDA74B721624502300D3D605 /* AppDelegate.m in Sources */,
 				DDA74B80162450F100D3D605 /* MapOverlayView.m in Sources */,
 				DDA74B9F1624514800D3D605 /* MapViewController.m in Sources */,
 				DD1038E21633A91E002F728E /* LocationHandler.m in Sources */,
-				DD1038EA163498BC002F728E /* CampusManager.m in Sources */,
 				DD1038F816357CC1002F728E /* ProsperHighSchool.m in Sources */,
 				DD1038FB16360D4A002F728E /* AdminBuilding.m in Sources */,
 				DD1038FE16374209002F728E /* ReynoldsMiddleSchool.m in Sources */,
 				DD0583691658B35D0059CBBF /* CampusInfoViewController.m in Sources */,
-				DD05836F1658B4710059CBBF /* Employee.m in Sources */,
+				DD0583781658BAF20059CBBF /* Campus.m in Sources */,
+				DD776BEB1669D48600616EDC /* PISDTabBarController.m in Sources */,
+				DD776BFA166BD54100616EDC /* BakerElementarySchool.m in Sources */,
+				DD776BFE166BD5D300616EDC /* CockrellElementarySchool.m in Sources */,
+				DD776C02166BD61800616EDC /* RogersMiddleSchool.m in Sources */,
+				DD776C06166BD63E00616EDC /* RuckerElementarySchool.m in Sources */,
+				DD776C0A166BDFCF00616EDC /* SupportServices.m in Sources */,
+				DD776C0E166BDFFF00616EDC /* FolsomElementarySchool.m in Sources */,
+				DD776C1D166BE21700616EDC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DDA74B6A1624502300D3D605 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDA74B6B1624502300D3D605 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DDA74B731624502300D3D605 /* Debug */ = {

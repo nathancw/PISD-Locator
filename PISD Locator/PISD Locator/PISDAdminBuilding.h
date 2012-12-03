@@ -1,5 +1,5 @@
 //
-//  ProsperHighSchool.h
+//  AdminBuilding.h
 //  PISD Locator
 //
 //  Created by Cole Hecht on 10/22/12.
@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Campus.h"
+#import "PISDCampus.h"
 
-@interface ProsperHighSchool : Campus
+@interface PISDAdminBuilding : PISDCampus
 
 @end
+
