@@ -51,4 +51,17 @@
 	return region;
 }
 
+- (NSArray *)staffDirectory {
+	
+#warning Campus does not use its own info.
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"AdminInfo" ofType:@"txt"];
+	
+	NSString *fileContent = [NSString stringWithContentsOfFile:path encoding:NSASCIIStringEncoding error:NULL];
+	
+	NSArray *arrayOfLines = [fileContent componentsSeparatedByString:[NSString stringWithFormat:@"%u", (char)10]];
+	
+	return arrayOfLines;
+	
+}
+
 @end

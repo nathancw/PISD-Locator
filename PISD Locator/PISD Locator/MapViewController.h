@@ -12,6 +12,7 @@
 @interface MapViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UINavigationBar *navigationBar;
+@property (strong, nonatomic) IBOutlet UINavigationItem *navigationBarTitle;
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 
 @end

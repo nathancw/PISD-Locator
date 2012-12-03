@@ -14,7 +14,7 @@
 - (void)drawMapRect:(MKMapRect)mapRect zoomScale:(MKZoomScale)zoomScale inContext:(CGContextRef)ctx
 {
 	
-	id<Campus> campus = (id<Campus>)self.overlay;
+	Campus *campus = (Campus *)self.overlay;
 	UIImage *image = campus.image;
     CGImageRef imageReference = image.CGImage;
 	

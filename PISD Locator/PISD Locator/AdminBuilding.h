@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Campus.h"
 
-@interface AdminBuilding : NSObject <Campus>
+@interface AdminBuilding : Campus
 
 @end
+

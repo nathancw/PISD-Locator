@@ -2,7 +2,7 @@
 //  Campus.h
 //  PISD Locator
 //
-//  Created by Cole Hecht on 10/21/12.
+//  Created by Cole Hecht on 11/18/12.
 //  Copyright (c) 2012 Hechtic Development. All rights reserved.
 //
 
@@ -10,12 +10,31 @@
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
 
-@protocol Campus <MKOverlay>
+@interface Campus : NSObject <MKOverlay>
 
-@required
-///////////////////////////////////////////////
-@property (strong, nonatomic) NSString *name;
-@property (strong, nonatomic) CLRegion *region;
-@property (strong, nonatomic) UIImage *image;
+/*
+ *	The Formal Name of the campus.
+ */
+@property (readonly, nonatomic) NSString *name;
+
+/*
+ *	The region that constitutes the campus. Used in geofencing.
+ */
+@property (readonly, nonatomic) CLRegion *region;
+
+/*
+ *	The campus  map's image to be overlayed onto map.
+ */
+@property (readonly, nonatomic) UIImage *image;
+
+/*
+ *	As the name implies, a diriecoty of all the employees on the givin campus.
+ *	The property is an NSArray of  NSDictionarys, each with the values for the 
+ *		employee. These valuse include name phone extention and postion.
+ *	NSDictionary valuues are refrenced through the
+ */
+@property (readonly, nonatomic) NSArray *staffDirectory;
+
++ (NSArray *)arrayOfCampuses;
 
 @end

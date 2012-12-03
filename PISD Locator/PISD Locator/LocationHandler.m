@@ -7,7 +7,7 @@
 //
 
 #import "LocationHandler.h"
-#import "CampusManager.h"
+#import "Campus.h"
 
 @interface LocationHandler ()
 @property (strong, nonatomic) CLLocationManager *locationManager;
@@ -32,16 +32,16 @@
 	_isOnPISDCampus = NO;
 	_campus = [self getInitialCampus];
 	NSLog(@"initial campus is %@", [self.campus name]);
-	[self initializeRegionMonitoring:[CampusManager arrayOfCampuses]];
+	[self initializeRegionMonitoring:[Campus arrayOfCampuses]];
 	NSLog(@"Location manager initialized. Device latitude: %f Device longitude: %f", self.locationManager.location.coordinate.latitude, self.locationManager.location.coordinate.longitude);
 	
 	return self;
 }
 
-- (id<Campus>)getInitialCampus {
-	id<Campus> cmp = nil;
+- (Campus *)getInitialCampus {
+	Campus *cmp = nil;
 	
-	for (id<Campus> campus in [CampusManager arrayOfCampuses])
+	for (Campus *campus in [Campus arrayOfCampuses])
 		if ([campus.region containsCoordinate:self.locationManager.location.coordinate]) {
 			cmp = campus;
 			_isOnPISDCampus = YES;
@@ -53,7 +53,7 @@
 
 - (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
 	NSLog(@"Device did enter region: %@", region.description);
-    for (id<Campus> campus in [CampusManager arrayOfCampuses])
+    for (Campus *campus in [Campus arrayOfCampuses])
 		if ([region.identifier isEqualToString:campus.name]) {
 			_campus = campus;
 			_isOnPISDCampus = YES;
@@ -71,7 +71,7 @@
 }
 
 - (void)initializeRegionMonitoring:(NSArray *)campuses {
-	for (id<Campus> campus in campuses)
+	for (Campus *campus in campuses)
 		[self.locationManager startMonitoringForRegion:campus.region];
 }
 

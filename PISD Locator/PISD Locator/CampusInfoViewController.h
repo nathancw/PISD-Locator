@@ -10,4 +10,6 @@
 
 @interface CampusInfoViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
+@property (strong, nonatomic) IBOutlet UINavigationItem *navigationBarTitle;
+
 @end

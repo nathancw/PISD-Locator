@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "Campus.h"
 
-@interface ReynoldsMiddleSchool : NSObject <Campus>
+@interface ReynoldsMiddleSchool : Campus
 
 @end
