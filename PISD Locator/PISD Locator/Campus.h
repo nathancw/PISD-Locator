@@ -31,10 +31,19 @@
  *	As the name implies, a diriecoty of all the employees on the givin campus.
  *	The property is an NSArray of  NSDictionarys, each with the values for the 
  *		employee. These valuse include name phone extention and postion.
- *	NSDictionary valuues are refrenced through the
+ *	NSDictionary keys are defined below.
  */
 @property (readonly, nonatomic) NSArray *staffDirectory;
 
+typedef enum {
+	CampusEmployeeCampus,
+	CampusEmployeeName,
+	CampusEmployeePhoneExtension,
+	CampusEmployeeRoomNumber,
+	CampusEmployeePosition
+} CampusEmployee;
+
 + (NSArray *)arrayOfCampuses;
+
 
 @end

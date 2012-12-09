@@ -9,6 +9,8 @@
 #import "CampusInfoViewController.h"
 #import "LocationHandler.h"
 #import "Campus.h"
+#import "ReynoldsMiddleSchool.h"
+#import "EmployeeDetailViewController.h"
 
 @interface CampusInfoViewController ()
 
@@ -17,7 +19,7 @@
 @end
 
 @implementation CampusInfoViewController
-@synthesize locationHandler;
+@synthesize locationHandler = _locationHandler;
 
 - (LocationHandler *)locationHandler {
 	return [[LocationHandler alloc] init];
@@ -50,24 +52,24 @@
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
 	
 	if (!cell)
-		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier];
 	
-	cell.textLabel.text = [locationHandler.campus.staffDirectory objectAtIndex:indexPath.row];
+	cell.textLabel.text = [[self.locationHandler.campus.staffDirectory objectAtIndex:indexPath.row]
+						   objectForKey:[NSNumber numberWithInt:CampusEmployeeName]];
+	cell.detailTextLabel.text = [[self.locationHandler.campus.staffDirectory objectAtIndex:indexPath.row]
+								 objectForKey:[NSNumber numberWithInt:CampusEmployeeRoomNumber]];
+	cell.detailTextLabel.textColor = [UIColor colorWithRed:4/255.f green:84/255.f blue:19/255.f alpha:1];
 	
 	return cell;
 	
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	int index = indexPath.row;
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Selected" message:[NSString stringWithFormat:@"You selected row number %i", index] delegate:self cancelButtonTitle:@"alrighty" otherButtonTitles:nil, nil];
-	[alert show];
-	/*
-	UIStoryboard *sb = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
-	UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"CustomVC"];
-	vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-	[self presentViewController:vc animated:YES completion:NULL];
-	 */
+	
+	EmployeeDetailViewController *detailVC = [[EmployeeDetailViewController alloc] initWithEmployeeInfo:
+											  [self.locationHandler.campus.staffDirectory objectAtIndex:indexPath.row]];
+	[self presentModalViewController:detailVC animated:YES];
+	
 }
 
 

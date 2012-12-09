@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD0583661658ACAB0059CBBF /* StaffInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD0583651658ACAB0059CBBF /* StaffInfo.xib */; };
 		DD0583691658B35D0059CBBF /* CampusInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0583681658B35D0059CBBF /* CampusInfoViewController.m */; };
 		DD0583781658BAF20059CBBF /* Campus.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0583771658BAF20059CBBF /* Campus.m */; };
 		DD1038E21633A91E002F728E /* LocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038E11633A91E002F728E /* LocationHandler.m */; };
@@ -16,6 +15,10 @@
 		DD1038FB16360D4A002F728E /* AdminBuilding.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038FA16360D4A002F728E /* AdminBuilding.m */; };
 		DD1038FE16374209002F728E /* ReynoldsMiddleSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1038FD16374209002F728E /* ReynoldsMiddleSchool.m */; };
 		DD10390516376A08002F728E /* Near_Reynolds.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DD10390416376A08002F728E /* Near_Reynolds.gpx */; };
+		DD3D26A516731B2300DDFA4A /* UserDefinedCampus.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3D26A416731B2300DDFA4A /* UserDefinedCampus.m */; };
+		DD3D26A71673F56100DDFA4A /* AdminInfo.csv in Resources */ = {isa = PBXBuildFile; fileRef = DD3D26A61673F56100DDFA4A /* AdminInfo.csv */; };
+		DD3D26B61674430A00DDFA4A /* EmployeeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3D26B41674430A00DDFA4A /* EmployeeDetailViewController.m */; };
+		DD3D26B71674430A00DDFA4A /* EmployeeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD3D26B51674430A00DDFA4A /* EmployeeDetailViewController.xib */; };
 		DD52C7431653ECBB0037CE95 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = DD52C7421653ECBB0037CE95 /* info.png */; };
 		DD776BDB1669C1EF00616EDC /* magglass30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = DD776BD91669C1EF00616EDC /* magglass30x30.png */; };
 		DD776BDC1669C1EF00616EDC /* magglassFULL.png in Resources */ = {isa = PBXBuildFile; fileRef = DD776BDA1669C1EF00616EDC /* magglassFULL.png */; };
@@ -62,7 +65,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD0583651658ACAB0059CBBF /* StaffInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StaffInfo.xib; sourceTree = "<group>"; };
 		DD0583671658B35D0059CBBF /* CampusInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusInfoViewController.h; sourceTree = "<group>"; };
 		DD0583681658B35D0059CBBF /* CampusInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusInfoViewController.m; sourceTree = "<group>"; };
 		DD0583761658BAF20059CBBF /* Campus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Campus.h; sourceTree = "<group>"; };
@@ -77,6 +79,12 @@
 		DD1038FC16374209002F728E /* ReynoldsMiddleSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReynoldsMiddleSchool.h; sourceTree = "<group>"; };
 		DD1038FD16374209002F728E /* ReynoldsMiddleSchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReynoldsMiddleSchool.m; sourceTree = "<group>"; };
 		DD10390416376A08002F728E /* Near_Reynolds.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Near_Reynolds.gpx; path = "PISD Locator/Near_Reynolds.gpx"; sourceTree = "<group>"; };
+		DD3D26A316731B2300DDFA4A /* UserDefinedCampus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefinedCampus.h; sourceTree = "<group>"; };
+		DD3D26A416731B2300DDFA4A /* UserDefinedCampus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefinedCampus.m; sourceTree = "<group>"; };
+		DD3D26A61673F56100DDFA4A /* AdminInfo.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdminInfo.csv; sourceTree = "<group>"; };
+		DD3D26B31674430A00DDFA4A /* EmployeeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeDetailViewController.h; sourceTree = "<group>"; };
+		DD3D26B41674430A00DDFA4A /* EmployeeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeDetailViewController.m; sourceTree = "<group>"; };
+		DD3D26B51674430A00DDFA4A /* EmployeeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeDetailViewController.xib; sourceTree = "<group>"; };
 		DD52C7421653ECBB0037CE95 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
 		DD776BD91669C1EF00616EDC /* magglass30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magglass30x30.png; sourceTree = "<group>"; };
 		DD776BDA1669C1EF00616EDC /* magglassFULL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magglassFULL.png; sourceTree = "<group>"; };
@@ -167,9 +175,20 @@
 			name = Campuses;
 			sourceTree = "<group>";
 		};
+		DD3D26A8167441B900DDFA4A /* Employee Detail */ = {
+			isa = PBXGroup;
+			children = (
+				DD3D26B31674430A00DDFA4A /* EmployeeDetailViewController.h */,
+				DD3D26B41674430A00DDFA4A /* EmployeeDetailViewController.m */,
+				DD3D26B51674430A00DDFA4A /* EmployeeDetailViewController.xib */,
+			);
+			name = "Employee Detail";
+			sourceTree = "<group>";
+		};
 		DD776BF5166BD48C00616EDC /* Admin Building */ = {
 			isa = PBXGroup;
 			children = (
+				DD3D26A61673F56100DDFA4A /* AdminInfo.csv */,
 				DD776C16166BE1F900616EDC /* AdminInfo.txt */,
 				DDD8C15A162518A300C333C9 /* Admin Room #s.jpg */,
 				DD1038F916360D4A002F728E /* AdminBuilding.h */,
@@ -315,8 +334,11 @@
 				DDA74B7D162450F100D3D605 /* MapOverlayView.m */,
 				DD776BE91669D48600616EDC /* PISDTabBarController.h */,
 				DD776BEA1669D48600616EDC /* PISDTabBarController.m */,
+				DD3D26A316731B2300DDFA4A /* UserDefinedCampus.h */,
+				DD3D26A416731B2300DDFA4A /* UserDefinedCampus.m */,
 				DD0583761658BAF20059CBBF /* Campus.h */,
 				DD0583771658BAF20059CBBF /* Campus.m */,
+				DD3D26A8167441B900DDFA4A /* Employee Detail */,
 				DD1038F216357C5B002F728E /* Campuses */,
 				DDA74BA01624514D00D3D605 /* View Controllers */,
 				DDA74B991624512800D3D605 /* Storyboards & XIBS */,
@@ -348,7 +370,6 @@
 			children = (
 				DDA74B951624512100D3D605 /* MainStoryboard_iPhone.storyboard */,
 				DDA74B961624512100D3D605 /* MainStoryboard_iPad.storyboard */,
-				DD0583651658ACAB0059CBBF /* StaffInfo.xib */,
 			);
 			name = "Storyboards & XIBS";
 			sourceTree = "<group>";
@@ -439,13 +460,14 @@
 				DD1038EF1634E093002F728E /* PHS_1st_floor_edited.png in Resources */,
 				DD10390516376A08002F728E /* Near_Reynolds.gpx in Resources */,
 				DD52C7431653ECBB0037CE95 /* info.png in Resources */,
-				DD0583661658ACAB0059CBBF /* StaffInfo.xib in Resources */,
 				DD776BDB1669C1EF00616EDC /* magglass30x30.png in Resources */,
 				DD776BDC1669C1EF00616EDC /* magglassFULL.png in Resources */,
 				DD776C17166BE1F900616EDC /* AdminInfo.txt in Resources */,
 				DD776C19166BE20800616EDC /* PISD Locator-Info.plist in Resources */,
 				DD776C1B166BE20F00616EDC /* InfoPlist.strings in Resources */,
 				DD776C20166BE3D500616EDC /* SuportServiceInfo.txt in Resources */,
+				DD3D26A71673F56100DDFA4A /* AdminInfo.csv in Resources */,
+				DD3D26B71674430A00DDFA4A /* EmployeeDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +495,8 @@
 				DD776C0A166BDFCF00616EDC /* SupportServices.m in Sources */,
 				DD776C0E166BDFFF00616EDC /* FolsomElementarySchool.m in Sources */,
 				DD776C1D166BE21700616EDC /* main.m in Sources */,
+				DD3D26A516731B2300DDFA4A /* UserDefinedCampus.m in Sources */,
+				DD3D26B61674430A00DDFA4A /* EmployeeDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

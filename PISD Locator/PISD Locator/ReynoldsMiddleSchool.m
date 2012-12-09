@@ -7,6 +7,7 @@
 //
 
 #import "ReynoldsMiddleSchool.h"
+#import "UserDefinedCampus.h"
 
 @implementation ReynoldsMiddleSchool
 //
@@ -54,14 +55,41 @@
 - (NSArray *)staffDirectory {
 	
 #warning Campus does not use its own info.
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"AdminInfo" ofType:@"txt"];
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"AdminInfo" ofType:@"csv"];
 	
-	NSString *fileContent = [NSString stringWithContentsOfFile:path encoding:NSASCIIStringEncoding error:NULL];
+	NSString *fileContent = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:NULL];
 	
-	NSArray *arrayOfLines = [fileContent componentsSeparatedByString:[NSString stringWithFormat:@"%u", (char)10]];
+	NSArray *arrayOfLines = [fileContent componentsSeparatedByString:@"|"];
 	
-	return arrayOfLines;
+	NSMutableArray *arrayOfData = [NSMutableArray array];
+	
+	for (NSString *line in arrayOfLines) {
+		
+		NSArray *array = [line componentsSeparatedByString:@","];
+		NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
+		
+		@try {
+			[dictionary setObject:[array objectAtIndex:0] forKey:[NSNumber numberWithInt:CampusEmployeePosition]];
+			[dictionary setObject:[array objectAtIndex:1] forKey:[NSNumber numberWithInt:CampusEmployeePhoneExtension]];
+			[dictionary setObject:[array objectAtIndex:2] forKey:[NSNumber numberWithInt:CampusEmployeeRoomNumber]];
+			[dictionary setObject:[NSString stringWithFormat:@"%@ %@", [array objectAtIndex:3], [array objectAtIndex:4]] forKey:[NSNumber numberWithInt:CampusEmployeeName]];
+			[dictionary setObject:@"Administration" forKey:[NSNumber numberWithInt:CampusEmployeeCampus]];
+		}
+		@catch (NSException *exception) {
+			continue;
+		}
+		
+		[arrayOfData addObject:dictionary];
+	}
+
+	return arrayOfData;
 	
 }
 
 @end
+
+
+
+
+
+
